@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="../assets/css/admin.css?v=20260518-mobile-picture-layouts-v2">
+  <title>Bookings | Fashion Vintage Paris Admin</title>
+</head>
+<body>
+  <div class="admin-shell">
+    <aside class="admin-sidebar" aria-label="Admin navigation">
+      <a class="admin-brand" href="admin-dashboard.html"><span class="logo-mark">FVP</span><div><strong>Fashion Vintage Paris</strong><span>Commerce CMS</span></div></a>
+      <nav class="admin-menu">
+        <a href="admin-dashboard.html">⌁ Dashboard</a><a href="products.html">◇ Products</a><a href="orders.html">□ Orders</a><a href="customers.html">◎ Customers</a><a href="bookings.html">◷ Bookings</a><a href="analytics.html">⌬ Analytics</a><a href="settings.html">⚙ Settings</a>
+      </nav>
+      <button class="admin-btn" type="button" data-logout>Logout</button>
+    </aside>
+
+    <main class="admin-main">
+      <header class="admin-topbar">
+        <div><h1>Booking Management</h1><p>Approve, cancel, and search boutique appointments submitted through the website.</p></div>
+        <div class="action-row"><button class="admin-btn mobile-sidebar-toggle" type="button" data-sidebar-toggle>Menu</button><a class="admin-btn primary" href="../booking.html">Public Booking</a></div>
+      </header>
+
+      <section class="admin-content">
+        <div class="metric-grid">
+          <article class="metric-card"><span>Total Bookings</span><strong data-metric="bookings">0</strong><small>Appointment pipeline</small></article>
+          <article class="metric-card"><span>Customers</span><strong data-metric="customers">0</strong><small>Client records</small></article>
+          <article class="metric-card"><span>Products</span><strong data-metric="products">0</strong><small>Viewing inventory</small></article>
+          <article class="metric-card"><span>Visitors</span><strong data-metric="visitors">0</strong><small>Traffic source</small></article>
+        </div>
+        <article class="table-card">
+          <div class="card-head"><h2>Appointment Requests</h2><input class="admin-search" type="search" placeholder="Search bookings" data-booking-search aria-label="Search bookings"></div>
+          <div class="table-scroll">
+            <table>
+              <thead><tr><th>Client</th><th>Service</th><th>Date</th><th>Phone</th><th>Status</th><th>Actions</th></tr></thead>
+              <tbody data-bookings-table></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+    </main>
+  </div>
+  <script src="../assets/js/admin.js?v=20260518-mobile-picture-layouts-v2" defer></script>
+</body>
+</html>

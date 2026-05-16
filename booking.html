@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Book a private luxury vintage fashion appointment at Fashion Vintage Paris for collection viewing, styling, or consignment consultation.">
+  <meta property="og:title" content="Book Appointment | Fashion Vintage Paris">
+  <meta property="og:description" content="Reserve private boutique time for authenticated luxury vintage fashion in Paris.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/fashion-vintage-paris-shop.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="booking.html">
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260518-vivienne-responsive">
+  <title>Book Appointment | Fashion Vintage Paris</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="site-nav" aria-label="Primary navigation">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">FVP</span><span>Fashion Vintage Paris</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a><a href="collection.html">Collection</a><a href="about.html">About</a><a href="reviews.html">Reviews</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a><a href="booking.html">Booking</a>
+      </div>
+      <div class="nav-actions"><button class="icon-button theme-toggle" type="button" aria-label="Switch theme">◐</button><button class="nav-toggle" type="button" aria-controls="navLinks" aria-expanded="false" aria-label="Open navigation menu"><span></span></button></div>
+    </div>
+  </nav>
+
+  <main id="main" class="page-shell">
+    <header class="sub-hero" style="--hero-image: url('assets/images/fashion-vintage-paris-shop.jpg');">
+      <div class="container reveal">
+        <span class="eyebrow">Private appointment</span>
+        <h1>Reserve a luxury boutique experience in Paris.</h1>
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span>Booking</span></nav>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container booking-grid">
+        <div class="booking-panel reveal">
+          <div class="calendar" aria-label="Appointment calendar">
+            <div class="calendar-head">
+              <button class="icon-button" type="button" data-prev-month aria-label="Previous month">‹</button>
+              <h2 data-month-label>Month</h2>
+              <button class="icon-button" type="button" data-next-month aria-label="Next month">›</button>
+            </div>
+            <div class="calendar-grid" data-calendar></div>
+          </div>
+          <h3 style="margin-top:1.5rem;">Select a time</h3>
+          <div class="time-grid" aria-label="Available appointment times">
+            <button type="button" data-time="11:00">11:00</button>
+            <button type="button" data-time="12:30">12:30</button>
+            <button type="button" data-time="14:00">14:00</button>
+            <button type="button" data-time="15:30">15:30</button>
+            <button type="button" data-time="17:00">17:00</button>
+            <button type="button" data-time="18:00">18:00</button>
+          </div>
+          <p class="muted">Sunday dates are unavailable. The boutique team confirms every request before the appointment is final.</p>
+        </div>
+
+        <div class="booking-panel reveal">
+          <span class="eyebrow">Appointment details</span>
+          <h2>Tell us what you want to view.</h2>
+          <form class="luxury-form" data-booking-form>
+            <input type="hidden" name="date">
+            <input type="hidden" name="time">
+            <div class="field">
+              <select id="service" name="service" required>
+                <option value="" selected disabled></option>
+                <option>Private Collection Viewing</option>
+                <option>Designer Handbag Consultation</option>
+                <option>Consignment Consultation</option>
+                <option>Styling Appointment</option>
+              </select>
+              <label for="service">Appointment Type</label>
+              <small class="field-error"></small>
+            </div>
+            <div class="form-row">
+              <div class="field"><input id="name" name="name" type="text" placeholder=" " required><label for="name">Name</label><small class="field-error"></small></div>
+              <div class="field"><input id="email" name="email" type="email" placeholder=" " required><label for="email">Email</label><small class="field-error"></small></div>
+            </div>
+            <div class="field"><input id="phone" name="phone" type="tel" placeholder=" " required><label for="phone">Phone</label><small class="field-error"></small></div>
+            <div class="field"><textarea id="notes" name="notes" placeholder=" " required></textarea><label for="notes">Pieces or goals</label><small class="field-error"></small></div>
+            <button class="btn btn-primary" type="submit">Confirm Booking Request</button>
+          </form>
+          <div class="confirmation" data-booking-confirmation role="status" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-band">
+      <div class="container">
+        <div class="section-header">
+          <div><span class="eyebrow">Appointment types</span><h2>Designed for buying, styling, and consignment.</h2></div>
+          <p class="lead">Each appointment creates a higher-quality experience and helps the boutique prepare pieces that fit your brief.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal"><span class="feature-icon">B</span><h3>Buyer Appointment</h3><p>View Chanel bags, Givenchy pieces, accessories, and jewelry with private guidance.</p></article>
+          <article class="feature-card reveal"><span class="feature-icon">S</span><h3>Styling Appointment</h3><p>Build looks around rare vintage pieces, travel wardrobes, or event dressing.</p></article>
+          <article class="feature-card reveal"><span class="feature-icon">C</span><h3>Consignment Review</h3><p>Discuss potential resale pieces, condition notes, and boutique fit.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="social-rail" aria-label="Social links"><a class="icon-button" href="https://instagram.com/" aria-label="Instagram">IG</a><a class="icon-button" href="https://tiktok.com/" aria-label="TikTok">TT</a><a class="icon-button" href="https://facebook.com/" aria-label="Facebook">FB</a><a class="icon-button" href="https://pinterest.com/" aria-label="Pinterest">PI</a></aside>
+  <a class="whatsapp-float" href="https://wa.me/33661984986" aria-label="Contact Fashion Vintage Paris on WhatsApp">WhatsApp</a>
+  <button class="icon-button back-to-top" type="button" aria-label="Back to top">↑</button>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="brand" href="index.html"><span class="brand-mark">FVP</span><span>Fashion Vintage Paris</span></a><p>Authentic luxury vintage fashion, curated in Paris.</p></div>
+      <div><h3>Boutique</h3><div class="footer-links"><a href="collection.html">Collection</a><a href="about.html">About</a><a href="booking.html">Appointments</a></div></div>
+      <div><h3>Visit</h3><div class="footer-links"><span>15 Rue des Petits Champs</span><span>75001 Paris, France</span><a href="tel:+33661984986">+33 6 61 98 49 86</a></div></div>
+      <div><h3>Admin</h3><div class="footer-links"><a href="admin/admin-login.html">Staff login</a><span>Location code V88Q+G6</span></div></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span data-year></span> Fashion Vintage Paris.</span><span>Booking system and admin workflow ready.</span></div>
+  </footer>
+  <script src="assets/js/app.js?v=20260518-vivienne-responsive" defer></script>
+</body>
+</html>

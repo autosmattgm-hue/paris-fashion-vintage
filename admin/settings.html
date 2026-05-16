@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="../assets/css/admin.css?v=20260518-mobile-picture-layouts-v2">
+  <title>Settings | Fashion Vintage Paris Admin</title>
+</head>
+<body>
+  <div class="admin-shell">
+    <aside class="admin-sidebar" aria-label="Admin navigation">
+      <a class="admin-brand" href="admin-dashboard.html"><span class="logo-mark">FVP</span><div><strong>Fashion Vintage Paris</strong><span>Commerce CMS</span></div></a>
+      <nav class="admin-menu">
+        <a href="admin-dashboard.html">⌁ Dashboard</a><a href="products.html">◇ Products</a><a href="orders.html">□ Orders</a><a href="customers.html">◎ Customers</a><a href="bookings.html">◷ Bookings</a><a href="analytics.html">⌬ Analytics</a><a href="settings.html">⚙ Settings</a>
+      </nav>
+      <button class="admin-btn" type="button" data-logout>Logout</button>
+    </aside>
+
+    <main class="admin-main">
+      <header class="admin-topbar">
+        <div><h1>Website Settings</h1><p>Update boutique branding, contact information, colors, and social links.</p></div>
+        <div class="action-row"><button class="admin-btn mobile-sidebar-toggle" type="button" data-sidebar-toggle>Menu</button><a class="admin-btn primary" href="../index.html">View Site</a></div>
+      </header>
+
+      <section class="admin-content">
+        <div class="settings-grid">
+          <article class="admin-card">
+            <div class="card-head"><h2>Brand and Contact</h2></div>
+            <form class="admin-form" data-settings-form>
+              <div class="form-grid">
+                <div class="admin-field"><label for="logo">Logo Text</label><input id="logo" name="logo" type="text" required></div>
+                <div class="admin-field"><label for="primaryColor">Primary Gold</label><input id="primaryColor" name="primaryColor" type="color" required></div>
+                <div class="admin-field full"><label for="address">Address</label><input id="address" name="address" type="text" required></div>
+                <div class="admin-field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" required></div>
+                <div class="admin-field"><label for="instagram">Instagram</label><input id="instagram" name="instagram" type="url" required></div>
+                <div class="admin-field"><label for="tiktok">TikTok</label><input id="tiktok" name="tiktok" type="url" required></div>
+                <div class="admin-field"><label for="facebook">Facebook</label><input id="facebook" name="facebook" type="url" required></div>
+                <div class="admin-field"><label for="pinterest">Pinterest</label><input id="pinterest" name="pinterest" type="url" required></div>
+              </div>
+              <button class="admin-btn primary" type="submit">Save Settings</button>
+            </form>
+          </article>
+
+          <article class="admin-card">
+            <div class="card-head"><h2>Deployment Checklist</h2></div>
+            <div class="device-stat"><div><span>SEO metadata</span><strong>Ready</strong></div><div class="bar"><span style="width:92%"></span></div></div>
+            <div class="device-stat"><div><span>Responsive UX</span><strong>Ready</strong></div><div class="bar"><span style="width:94%"></span></div></div>
+            <div class="device-stat"><div><span>Static security</span><strong>Demo</strong></div><div class="bar"><span style="width:58%"></span></div></div>
+            <p>Move admin authentication, product writes, order payments, and file uploads to a backend before real public deployment.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="../assets/js/admin.js?v=20260518-mobile-picture-layouts-v2" defer></script>
+</body>
+</html>
